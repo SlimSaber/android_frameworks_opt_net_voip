@@ -53,7 +53,7 @@ LOCAL_C_INCLUDES += \
 	frameworks/av/media/libstagefright/codecs/amrnb/dec/src \
 	$(call include-path-for, audio-effects)
 
-LOCAL_CFLAGS += -fvisibility=hidden -fno-strict-aliasing
+LOCAL_CFLAGS += -fvisibility=hidden
 
 
 
